@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="92b3975b-b859-4a3d-b0bc-c9176f1c26af" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="https://okanservice.azurewebsites.net/ProductService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="ProductService.xsd" MetadataType="Schema" ID="9a918aeb-de9f-41d7-9c25-6986b81c9ad0" SourceId="1" SourceUrl="https://okanservice.azurewebsites.net/ProductService.svc?xsd=xsd2" />
+    <MetadataFile FileName="ProductService.disco" MetadataType="Disco" ID="971909d3-4b34-42dc-ab9b-5f4f011128f8" SourceId="1" SourceUrl="https://okanservice.azurewebsites.net/ProductService.svc?disco" />
+    <MetadataFile FileName="ProductService1.xsd" MetadataType="Schema" ID="778e81f3-0c88-4cb3-a2b0-ecb5a45a34d1" SourceId="1" SourceUrl="https://okanservice.azurewebsites.net/ProductService.svc?xsd=xsd0" />
+    <MetadataFile FileName="ProductService.wsdl" MetadataType="Wsdl" ID="ca895cfe-95d1-42cb-90b2-7591ca972f69" SourceId="1" SourceUrl="https://okanservice.azurewebsites.net/ProductService.svc?wsdl" />
+    <MetadataFile FileName="ProductService2.xsd" MetadataType="Schema" ID="46dde0e2-4b3e-40fe-a6b8-0f68550c1144" SourceId="1" SourceUrl="https://okanservice.azurewebsites.net/ProductService.svc?xsd=xsd1" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
